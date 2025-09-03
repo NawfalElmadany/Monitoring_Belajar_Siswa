@@ -30,7 +30,7 @@ function App() {
 
   return (
     <AuthContext.Provider value={authContextValue}>
-      <div className="min-h-screen w-full bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('https://picsum.photos/1920/1080?blur=5')" }}>
+      <div className="min-h-screen w-full bg-army-green">
         <div className="min-h-screen w-full bg-black/10">
           {currentUser ? <MainLayout /> : <LoginPage />}
         </div>
